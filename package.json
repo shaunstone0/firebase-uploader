@@ -1,0 +1,24 @@
+{
+  "name": "firebase-seeder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^14.0.13",
+    "commander": "^5.1.0",
+    "csvtojson": "^2.0.10",
+    "filehound": "^1.17.4",
+    "firebase": "^7.15.3",
+    "firebase-admin": "^8.12.1",
+    "sharding-to-csv": "^1.0.2",
+    "typescript": "^3.9.5"
+  },
+  "bin": {
+    "csv-migrate": "./dist/index.js"
+  }
+}
